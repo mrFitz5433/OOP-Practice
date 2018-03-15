@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.4)
+
+#This cmake file is made for the C code of the original source code
+project(Santa C)
+
+
+add_executable(Santa paravia.c)
+
+
+#add the ability to printout the source code
+macro(add_printout)
+  add_custom_target(printout
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+    COMMAND a2ps -Afill -o- ${ARGN} | ps2pdf - ${CMAKE_BINARY_DIR}/printout.pdf)
+endmacro()
+
+add_printout(Santa paravia.c)

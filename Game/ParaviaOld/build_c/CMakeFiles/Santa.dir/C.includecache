@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Fitz/Desktop/santa-paravia/paravia.c
+stdio.h
+-
+string.h
+-
+time.h
+-
+stdlib.h
+-
+curses.h
+-
+

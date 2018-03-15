@@ -1,0 +1,2 @@
+/Users/Fitz/Desktop/santa-paravia/build_c/CMakeFiles/printout.dir
+/Users/Fitz/Desktop/santa-paravia/build_c/CMakeFiles/Santa.dir
