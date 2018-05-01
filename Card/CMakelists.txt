@@ -1,0 +1,12 @@
+project (Card CXX)
+
+add_library(Card
+	bitcard.hpp
+	card.hpp
+	cardUnion.hpp)
+
+add_executable(Card
+	bitcard.cpp
+	card.cpp
+	cardUnion.cpp)
+
